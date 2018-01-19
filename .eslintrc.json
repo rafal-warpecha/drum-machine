@@ -1,0 +1,27 @@
+{
+    "extends": [
+        "airbnb"
+    ],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 2016,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "env": {
+        "es6": true,
+        "jest": true,
+        "browser": true,
+        "node": true
+    },
+    "globals": {
+        "DEBUG": false
+    },
+    "rules": {
+        "indent": [ "error", 4 ],
+        "comma-dangle": [ "error", "never" ],
+        "react/jsx-indent": [ "error", 4 ]
+    }
+}

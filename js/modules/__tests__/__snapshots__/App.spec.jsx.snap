@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App match snapshot 1`] = `
+<div
+  className="container"
+>
+  <span>
+    App Name
+  </span>
+</div>
+`;
