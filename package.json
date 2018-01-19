@@ -18,7 +18,7 @@
         "webaudioapi"
     ],
     "author": "Rafal Warpecha",
-    "license": "ISC",
+    "license": "MIT",
     "devDependencies": {
         "autoprefixer-loader": "^3.2.0",
         "babel-core": "^6.26.0",
