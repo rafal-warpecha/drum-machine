@@ -20,8 +20,16 @@
         "DEBUG": false
     },
     "rules": {
+        "max-len": [ "error", 120, 4, {
+            "ignoreUrls": true,
+            "ignoreComments": true,
+            "ignoreRegExpLiterals": true,
+            "ignoreStrings": true,
+            "ignoreTemplateLiterals": true
+        }],
         "indent": [ "error", 4 ],
         "comma-dangle": [ "error", "never" ],
-        "react/jsx-indent": [ "error", 4 ]
+        "react/jsx-indent": [ "error", 4 ],
+        "react/jsx-indent-props": [ "error", 4 ]
     }
 }
