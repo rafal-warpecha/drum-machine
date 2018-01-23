@@ -13,7 +13,7 @@ const config = {
 
     entry: ['react-hot-loader/patch', './js/index.jsx'],
 
-    devtool: 'cheap-eval-source-map',
+    devtool: 'cheap-module-source-map',
 
     output: {
         path: path.resolve(__dirname, 'dist'),
