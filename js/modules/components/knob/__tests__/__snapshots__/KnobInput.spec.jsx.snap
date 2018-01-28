@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`KnobInput component should match snapshot 1`] = `
+<input
+  className="input"
+  max={100}
+  min={0}
+  onBlur={[Function]}
+  onChange={[Function]}
+  type="number"
+  value={0}
+/>
+`;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Knob component should match snapshot 1`] = `
+<div
+  className="container"
+  style={
+    Object {
+      "height": "70px",
+      "width": "70px",
+    }
+  }
+>
+  <KnobCanvas
+    angle={4.363323129985823}
+    bgColor="#aaaaaa"
+    endAngle={6.894050545377603}
+    fgColor="#ff0000"
+    max={100}
+    min={0}
+    offsetAngle={-2.1816615649929116}
+    onChange={[Function]}
+    size={70}
+    startAngle={2.530727415391778}
+    thickness={14}
+    value={0}
+  />
+  <KnobInput
+    max={100}
+    min={0}
+    onChange={[Function]}
+    value={0}
+  />
+</div>
+`;

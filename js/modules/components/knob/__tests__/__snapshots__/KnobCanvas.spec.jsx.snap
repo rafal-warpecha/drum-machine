@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`KnobCanvas component should match snapshot 1`] = `
+<canvas
+  height={NaN}
+  onClick={[Function]}
+  onMouseDown={[Function]}
+  style={
+    Object {
+      "height": "70px",
+      "width": "70px",
+    }
+  }
+  width={NaN}
+/>
+`;
